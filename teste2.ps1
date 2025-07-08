@@ -28,14 +28,6 @@ Write-Host "Bitdefender instalado"
 
 # Desinstala Revo
 
-Start-Process "C:\Program Files\Revo Uninstaller\unins000.exe" -ArgumentList "/SILENT" -Wait
-
-# Código para procurar programas instalados
-# Write-Host "Verificando programas instalados..."
-# Get-WmiObject -Class Win32_Product | Where-Object { $_.Name -like "*nome do programa*" }
-
-# Exemplo de desinstalação (descomente se necessário)
-# Write-Host "Desinstalando Chrome..."
-# (Get-WmiObject -Class Win32_Product | Where-Object { $_.Name -like "*Chrome*" }).Uninstall()
+Start-Process "C:\Program Files\VS Revo Group\Revo Uninstaller\unins000.exe" -ArgumentList "/SILENT" -Wait
 
 Write-Host "Todas as instalações finalizadas com sucesso!"
