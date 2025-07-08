@@ -19,8 +19,7 @@ Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\6 - JAVA\jre-8u4
 Write-Host "Java Instalado"
 
 Write-Host "Instalando TeamViewer"
-# Você precisa completar o caminho do TeamViewer
-Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\[CAMINHO_COMPLETO_TEAMVIEWER]" -Wait
+Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\7 - NAVEGADORES E PJE TJRS SHODO\04 - TeamViewer_Setup_x64.exe" -Wait
 Write-Host "TeamViewer Instalado"
 
 Write-Host "Instalando Bitdefender"
