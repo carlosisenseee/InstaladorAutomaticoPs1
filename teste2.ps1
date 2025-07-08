@@ -26,6 +26,10 @@ Write-Host "Instalando Bitdefender"
 Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\16 - ANTIVIRUS\Bitdefender Business - Uso Geral\epskit_x64_7.9.22.537\epskit_x64.exe" -Wait
 Write-Host "Bitdefender instalado"
 
+# Desinstala Revo
+
+Start-Process "C:\Program Files\Revo Uninstaller\unins000.exe" -ArgumentList "/SILENT" -Wait
+
 # Código para procurar programas instalados
 # Write-Host "Verificando programas instalados..."
 # Get-WmiObject -Class Win32_Product | Where-Object { $_.Name -like "*nome do programa*" }
