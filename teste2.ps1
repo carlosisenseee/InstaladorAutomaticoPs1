@@ -1,5 +1,5 @@
 Write-Host "Instalando MicroSIP"
-Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\3 - DISCADORES\MicroSIP-Lite-3.21.6.exe" -ArgumentList "/S /SUPPRESSMSGBOXES"
+Start-Process -FilePath "C:\MicroSIP-Lite-3.21.6.exe" -ArgumentList "/S /SUPPRESSMSGBOXES"
 Write-Host "MicroSIP instalado"
 
 Write-Host "Instalando Driver 1"
