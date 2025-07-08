@@ -3,23 +3,23 @@ Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\3 - DISCADORES\M
 Write-Host "MicroSIP instalado"
 
 Write-Host "Instalando Driver 1"
-Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\5 - DRIVER CERTIFICADO\certisign10.6-x64-10.6.exe" -Wait
+Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\5 - DRIVER CERTIFICADO\certisign10.6-x64-10.6.exe"  -ArgumentList "/SILENT" -Wait
 Write-Host "Driver 1 Instalado"
 
 Write-Host "Instalando Driver 2"
-Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\5 - DRIVER CERTIFICADO\GDsetupStarsignCUTx64.exe" -Wait
+Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\5 - DRIVER CERTIFICADO\GDsetupStarsignCUTx64.exe"  -ArgumentList "/SILENT" -Wait
 Write-Host "Driver 2 Instalado"
 
 Write-Host "Instalando Driver 3"
-Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\5 - DRIVER CERTIFICADO\SafeSignIC30124-x64-win-tu-admin.exe" -Wait
+Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\5 - DRIVER CERTIFICADO\SafeSignIC30124-x64-win-tu-admin.exe"  -ArgumentList "/SILENT" -Wait
 Write-Host "Driver 3 Instalado"
 
 Write-Host "Instalando Java"
-Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\6 - JAVA\jre-8u451-windows-i586.exe" -Wait
+Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\6 - JAVA\jre-8u451-windows-i586.exe"  -ArgumentList "/SILENT" -Wait
 Write-Host "Java Instalado"
 
 Write-Host "Instalando TeamViewer"
-Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\7 - NAVEGADORES E PJE TJRS SHODO\04 - TeamViewer_Setup_x64.exe" -Wait
+Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\7 - NAVEGADORES E PJE TJRS SHODO\04 - TeamViewer_Setup_x64.exe"  -ArgumentList "/SILENT" -Wait
 Write-Host "TeamViewer Instalado"
 
 Write-Host "Instalando Bitdefender"
