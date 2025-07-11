@@ -15,7 +15,7 @@ Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\5 - DRIVER CERTI
 Write-Host "Driver 3 Instalado"
 
 Write-Host "Instalando Java"
-Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\6 - JAVA\jre-8u451-windows-i586.exe"  -ArgumentList "/SILENT" -Wait
+Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\6 - JAVA\jre-8u451-windows-i586.exe"  -ArgumentList "/s" -Wait
 Write-Host "Java Instalado"
 
 Write-Host "Instalando TeamViewer"
