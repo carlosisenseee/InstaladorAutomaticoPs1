@@ -3,11 +3,11 @@ Start-Process -FilePath "C:\MicroSIP-Lite-3.21.6.exe" -ArgumentList "/S /SUPPRES
 Write-Host "MicroSIP instalado"
 
 Write-Host "Instalando Driver 1"
-Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\5 - DRIVER CERTIFICADO\certisign10.6-x64-10.6.exe"  -ArgumentList "/SILENT" -Wait
+Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\5 - DRIVER CERTIFICADO\certisign10.6-x64-10.6.exe"  -ArgumentList "/s" -Wait
 Write-Host "Driver 1 Instalado"
 
 Write-Host "Instalando Driver 2"
-Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\5 - DRIVER CERTIFICADO\GDsetupStarsignCUTx64.exe"  -ArgumentList "/SILENT" -Wait
+Start-Process -FilePath "\\fs01\informatica$\PROGRAMA ADVOGADOS\5 - DRIVER CERTIFICADO\GDsetupStarsignCUTx64.exe"  -ArgumentList "/s" -Wait
 Write-Host "Driver 2 Instalado"
 
 Write-Host "Instalando Driver 3"
