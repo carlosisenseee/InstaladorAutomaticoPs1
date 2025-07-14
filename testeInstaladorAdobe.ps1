@@ -1,5 +1,5 @@
 Write-Host "Instalando Adobe"
-Start-Process -FilePath "C:\Instaladores\AdobeSetup.exe" -ArgumentList "/sAll /rs /rps /msi EULA_ACCEPT=YES" -Wait
+Start-Process -FilePath "C:\Instaladores\AcroRdrDC2300620399_en_US.exe" -ArgumentList "/sAll /rs /rps /msi EULA_ACCEPT=YES DISABLE_LAUNCH=YES" -Wait
 Write-Host "Adobe instalado"
 
 Write-Host "Copiando arquivo de configuração para o Adobe"
